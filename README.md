@@ -21,7 +21,7 @@ npx eslint ./src/index.ts
 
 ```
 npm init --yes
-npm install --save-dev typescript tslint @types/node
+npm install --save-dev typescript @types/node
 npx tsc --init
 npm install --save-dev ts-node
 npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslint/parser

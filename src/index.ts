@@ -1,3 +1,5 @@
+console.log('Hello TypeScript!')
+
 // ## 1. イントロダクション
 
 // 3 + [] // error
