@@ -28,4 +28,4 @@ npm install --save-dev eslint @typescript-eslint/eslint-plugin @typescript-eslin
 npx eslint --init
 ```
 
-「付録H ESLintとAST」に沿って、非推奨になったtslintからeslintに変更した。
+「付録H ESLintとAST」に沿って、非推奨になったtslintからeslintに変更しました。
