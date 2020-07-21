@@ -170,3 +170,88 @@ console.log('Hello TypeScript!')
 // danger = {x: 1}
 // danger = []
 // danger = 2
+
+
+// ### 練習問題
+// let a = 1042
+// let b = 'apples and oranges'
+// const c = 'pineapples'
+// let d = [true, true, false]
+// let e = {type: 'ficus'}
+// let f = [1, false]
+// const g = [3]
+// let h = null
+
+
+// ## 4. 関数
+
+// function add(a: number, b: number) {
+//     return a + b
+// }
+
+// function greet(name: string) {
+//     return 'hello' + name
+// }
+
+// let greet2 = function(name: string) {
+//     return 'hello' + name
+// }
+
+// let greet3 = (name: string) => {
+//     return 'hello' + name
+// }
+
+// let greet4 = (name: string) =>
+//     'hello' + name
+
+
+// let greet5 = new Function('name', 'return "hello" + name')
+
+// add(1, 2)
+// greet('Crystal')
+
+// add(1) //error
+// add(1, 'a') //error
+
+
+// ### オプションパラメーターとデフォルトパラメーター
+
+// function log(message: string, userId?: string) {
+//     let time = new Date().toLocaleTimeString()
+//     console.log(time, message, userId || 'Not sign in')
+// }
+
+// log('Page Loaded')
+// log('User signin', 'da763be')
+
+
+// function log(message: string, userId='Not sign in') {
+//     let time = new Date().toLocaleTimeString()
+//     console.log(time, message, userId)
+// }
+
+// log('User clicked on a button', 'da763be')
+// log('User signed out')
+
+
+// function sum(numbers: number[]): number {
+//     console.log(numbers)
+//     return numbers.reduce((total, n) => total + n, 0)
+// }
+// console.log(sum([1,2,3]))
+
+
+// function sumVariadic():number {
+//     return Array
+//         .from(arguments)
+//         .reduce((total, n) => total + n, 0)
+// }
+
+// consoel.log(sumVariadic(1, 2, 3))
+
+
+// function sumVariadicSafe(...numbers: number[]): number {
+//     console.log(numbers)
+//     return numbers.reduce((total, n) => total + n, 0)
+// }
+// console.log(sumVariadicSafe(1,2,3))
